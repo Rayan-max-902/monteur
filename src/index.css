@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* 3D Card Flip CSS Utilities */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Base visual refinements */
+html, body {
+  scroll-behavior: smooth;
+  background-color: #f9fafb;
+}
+
+/* Subtle pulse border animation for loading cards */
+@keyframes borderGlowOutput {
+  0%, 100% { border-color: rgba(229, 231, 235, 0.8); }
+  50% { border-color: rgba(147, 197, 253, 0.8); }
+}
+
+.animate-border-glow {
+  animation: borderGlowOutput 2s infinite ease-in-out;
+}

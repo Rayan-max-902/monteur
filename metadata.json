@@ -1,0 +1,6 @@
+{
+  "name": "Prototype de moteur NBA / NBO",
+  "description": "Prototype interactif de moteur Next Best Action / Next Best Offer pour la réactivation des clients dormants de la Banque Populaire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
